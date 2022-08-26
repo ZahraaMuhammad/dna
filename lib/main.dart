@@ -1,7 +1,7 @@
-import 'package:dna/Screens/qrScreen.dart';
+import 'package:dna/Screens/home.dart';
+import 'package:dna/task/home.dart';
+import 'package:dna/toters/splash.dart';
 import 'package:flutter/material.dart';
-
-import 'Screens/notification.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: NotificationPage(),
+      home: splash(),
     );
   }
 }
