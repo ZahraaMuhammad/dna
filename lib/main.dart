@@ -1,4 +1,5 @@
 import 'package:dna/Screens/home.dart';
+import 'package:dna/task/animation.dart';
 import 'package:dna/task/home.dart';
 import 'package:dna/toters/splash.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: splash(),
+      home: AnimatedContainerTest(),
     );
   }
 }

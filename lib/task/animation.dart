@@ -1,27 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-void main() {
-  runApp(const MyApp());
-}
 
-//@CodeWithFlexz on Instagram
 
-//AmirBayat0 on Github
-//Programming with Flexz on Youtube
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Flutter Animated Container',
-      debugShowCheckedModeBanner: false,
-      home: AnimatedContainerTest(),
-    );
-  }
-}
 
 class AnimatedContainerTest extends StatefulWidget {
   const AnimatedContainerTest({Key? key}) : super(key: key);
@@ -124,7 +105,7 @@ class _AnimatedContainerTestState extends State<AnimatedContainerTest> {
 
                 /// Last Screen Lottie
                 index == 4
-                    ? Lottie.asset('assets/1.json',
+                    ? Lottie.asset('asset/images/dnaLogo.png',
                     height: 250, animate: index == 4 ? true : false)
                     : Container(),
                 Center(
